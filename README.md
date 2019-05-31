@@ -17,3 +17,6 @@ Step 3: Run TensorBoard
 ```
 tensorboard --logdir=/tmp/tensorflow/mnist
 ```
+
+# Running multiple runs
+With W&B, just re-run your script and we automatically start a new run for you. TensorBoard gets all gummed up unless you tell it to start logging events for a new run.
