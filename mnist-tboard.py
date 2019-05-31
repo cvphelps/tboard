@@ -29,8 +29,10 @@ import os
 import sys
 
 import tensorflow as tf
-
 from tensorflow.examples.tutorials.mnist import input_data
+
+import wandb
+wandb.init(project="tboard-mnist", tensorboard=True)
 
 FLAGS = None
 
