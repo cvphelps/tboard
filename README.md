@@ -1,17 +1,19 @@
-# Simple MNIST Example
-Curious how TensorBoard features work? Try it with 3 steps.
+# Compare W&B and TensorBoard
+Curious how TensorBoard and Weights & Biases compares? Try a quick example:
 
 Step 1: Run the script
 ```
+pip install --upgrade tensorflow
+pip install --upgrade wandb
 python mnist-tboard.py
 ```
 
-Step 2: Launch tensorboard
+Step 2: Click the W&B link printed at the top of the run
 ```
-tensorboard --logdir=/tmp/tensorflow/mnist
+https://app.wandb.ai/...your-run-here...
 ```
 
-Step 3: Click the link printed on the command line
+Step 3: Run TensorBoard
 ```
-TensorBoard 1.13.1 at http://your-computer.localdomain:XXXX (Press CTRL+C to quit)
+tensorboard --logdir=/tmp/tensorflow/mnist
 ```
