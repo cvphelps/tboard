@@ -3,6 +3,7 @@ Curious how TensorBoard and Weights & Biases compares? Try a quick example:
 
 Step 1: Run the script
 ```
+git clone https://github.com/cvphelps/tboard.git
 pip install --upgrade tensorflow
 pip install --upgrade wandb
 python mnist-tboard.py
